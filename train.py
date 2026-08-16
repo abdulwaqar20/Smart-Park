@@ -9,6 +9,6 @@ else:
     
 model = YOLO("yolov8m.yaml")
 
-# Wrap the training code in a `if __name__ == '__main__':` block
+# Wrap the training code in a `if __name__ == '__main__':` block.
 if __name__ == "__main__":
     results = model.train(data="config.yaml", epochs=20, device=device)

@@ -9,7 +9,7 @@ from io import BytesIO
 model_path = os.path.join('.', 'runs', 'detect', 'train23', 'weights', 'last.pt')
 model = YOLO(model_path)
 
-# Streamlit Interface
+# Streamlit Interfaces
 st.title("Object Detection with Native Video Player")
 
 # File upload for images or videos
