@@ -1,0 +1,14 @@
+# Path to dataset root folder (change this to your actual dataset location)
+path: ./dataset
+
+# Paths relative to 'path' above
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 2
+
+# Class names (order matters — index 0 = first class, index 1 = second class)
+names:
+  0: empty
+  1: filled
